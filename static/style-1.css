@@ -7,17 +7,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
 }
 
 h1 {
     /* color: #66BFBF; */
     color: #474E68;
     line-height: 2;
-    font-size: 3vw;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 13px;
     margin-top: 20px;
@@ -29,34 +25,32 @@ img{
 }
 
 .main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 
 
 .cont{
-    flex: 1;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     /* background-color: #2A2550; */
     background: rgba(255,255,255,0.7);
     backdrop-filter: saturate(180%) blur(10px);
-    width: 80%;
-    height: 80%;
-    text-align: center;
+    width: 1500px;
+    height: 800px;
 }
 
-.con-main{
+.flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
+    justify-content: center;  
 }
 
 .output_1{
+    flex: 1;
     padding: 78px;
     padding-top: 0px;
     padding-right: 30px;
@@ -66,6 +60,7 @@ img{
     padding-bottom: 0px;
 }
 .output_2{
+    flex: 1;
     flex-direction: column;
     padding: 76px;
     padding-left: 30px;
@@ -76,16 +71,16 @@ img{
 }
 
 .video_stream{
-    width: 33.4vw;
-    height: 50vh;
+    width: 640px;
+    height: 480px;
     /* border: 5px solid black; */
     border-radius: 30px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
 .P_txt{
-    width: 33.4vw;
-    height: 50vh;
+    width: 640px;
+    height: 480px;
     /* border: 5px solid black; */
     text-align: center;
     /* background: #fff; */
@@ -97,7 +92,7 @@ img{
 }
 
 .txt{
-    font-size: 12vw;
+    font-size: 250px;
     margin-top: 0px;
     color: #66BFBF; 
 }
@@ -108,7 +103,7 @@ img{
 
 .cont p{
     color: #474E68;
-    font-size: 1vw;
+    font-size: 20px;
     text-align: center;
     padding: 30px;  
     padding-bottom: 0px;
@@ -122,12 +117,12 @@ footer p{
 .an{
     position:relative;
     display: inline-block;
-    padding: 0.5vw 2vw;
+    padding: 12px 36px;
     margin: 10px 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 18px;
     letter-spacing: 2px;
     border-radius: 40px;
     background: linear-gradient(90deg,#0162c8,#55e7fc);

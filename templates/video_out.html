@@ -16,8 +16,12 @@
 
 <body>
 
+    <!-- <script>
+        alert("Disclaimer: This is a prototype and is not intended for commercial use. The translation is just an illustration of the concept")
+    </script> -->
+
     <div class="nav_head">
-        <div class="nav_title"><h1 style="margin-top:15px ;">Realtime Communication System</h1></div>
+        <div class="nav_title"><h1 style="margin-top:1vh">Realtime Communication System</h1></div>
         <div class="icons">
             <ul class="header-list">
                 <li class="header-list-elements"><a class="link-tag" id="profile_page" href='./profile.html'>Profile</a></li>
@@ -49,12 +53,10 @@
 </script>    
 <div class="main">
     <div class="cont">
-        <div class="flex">
+        <div class="con-main">
             <div class="output_1">
                 <div class="cent"> 
                     <h1>Video Output</h1>
-                </div>   
-                <div class="cent">
                     <div class="video_stream">
                     <!-- <img src="{{ url_for('video') }}"> -->
                     <video id="videoCam" style="border-radius: 30px;" ></video>
@@ -67,8 +69,6 @@
             <div class="output_2">
                 <div class="cent">
                     <h1>Predicted Text</h1>
-                </div>
-                <div class="cent">
                     <div class="P_txt">
                     <h1 class="txt"> <span id="txt">A</span> </h1>
                     </div> 
@@ -79,7 +79,7 @@
         </div>
         <p>The above program predict the sign language gesture with the help trained CNN Model</p>
         <div class="btn">
-            <a href="./home.html" class="an" onclick="server.off_rec()" >Stop Translate</a>
+            <a href="./home.html" class="an" onclick="server.off_rec()" style="font-size:1vw ;" >Stop Translate</a>
         </div>
         
     </div>

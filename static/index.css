@@ -37,7 +37,7 @@ body{
     backdrop-filter: saturate(180%) blur(10px);
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-    height: 80px;
+    height: 8vh;
     display: flex;      
     flex-direction: row;
     justify-content: space-between;
@@ -48,11 +48,10 @@ body{
 }
 
 .nav_title h1{
-    font-size: 25px;
+    font-size: 1.5vw;
     color: #474E68;
-    padding-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-left: 2vw;
+    margin: 2.1vh 0;
 }
 
 /* .icon{
@@ -65,16 +64,15 @@ body{
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-top: 24px;
-    margin-right: 40px;
+    margin-top: 2.3vh;
+    margin-right: 2vw;
     justify-content: space-around;
 }
 
 .header-list-elements{
     color: #474E68;
-    font-size: 18px;
-    margin: 0px 20px 0px 20px;
-    font-size: 20px;
+    margin: 0px 2vh 0px 1vw;
+    font-size: 2.1vh;
 }
 
 .link-tag{
